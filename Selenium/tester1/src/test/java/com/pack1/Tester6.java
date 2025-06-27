@@ -9,8 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Tester6 {
 	
 	public static void main(String[] args) throws InterruptedException {
-		String driverPath="C:\\Users\\tester_android\\Desktop\\MorningBatch01\\javaWorkspace\\browser-exe\\windows\\chromedriver.exe";
-		System.setProperty("webdriver.chrome.driver", driverPath);
+		
 		WebDriver driver = new ChromeDriver();
 		
 		Thread.sleep(3000);

@@ -1,0 +1,44 @@
+1. write down the methods of webdriver interface we have used so far:
+*get
+*quit
+*findelement
+*navigate
+*maximize
+*findelements
+*close
+
+
+2. write down the methods of webelement interface we have used so far:
+*click
+*Sendkeys
+*Clear
+*gettext
+*getAttribute()
+*getCssValue()
+
+11.write down the methods of select class we have used so far:
+selectByIndex
+SelectByvalue
+SelectByVisibletext
+This is applicable only for the tag with select classes. 
+
+eg:
+
+WebElement skilldropdown=driver.findElement(By.id("Skills"));
+Select s1=new Select(skilldropdown);
+
+
+3.Write down the exceptions faced, during selenium coding
+*No such element (Incorrect locator/ zero identified element in findelement method)
+*element not interactable (
+*StaleElementReferenceException (When we are not able to identify the locator after refresh/ navigating from one page to another)
+* java.lang.ClassCastException: 
+
+
+4. Navigate front and back
+driver.navigate().back();
+driver.navigate().forward();
+
+
+5.HOw to refresh a page
+driver.navigate().refresh();

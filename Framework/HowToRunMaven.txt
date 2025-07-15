@@ -1,0 +1,8 @@
+From pom.xml
+
+
+
+from Bat file
+
+
+From command prompt

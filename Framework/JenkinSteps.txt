@@ -1,0 +1,14 @@
+1. Download the Jenkins, keep it in a folder
+2. Open command prompt in the jenkin war file folder.
+3. Enter the command java -jar Jenkins.war.
+4. Verify whether jenkin running successfully
+5. Open the browser and enter localhost:8080, login
+6. Manage Jenkins --> click on tools --> configure jdk and maven (we are providing the path / location of jdk and maven folder)
+7. CLick on new item --> provide job name --> select free style project
+--> provide location for the framework (if want to run from invoke top level maven target) / provide location of the bat file (if want to run from execute windows batch command).
+8. Configure to run periodically, by clicking on ? in the schedule, after selecting build periodically eg: to run every 2 min (H/2 * * * *)
+9.  CLick on new item --> provide job name -->copy from existing job
+10. Click on build now to run the job
+
+
+

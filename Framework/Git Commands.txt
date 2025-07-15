@@ -1,0 +1,17 @@
+1. Git clone 
+first we need to clone the repository
+ git clone https://github.com/gurumani2280/SeleniumWithAshwini.git
+
+2. Open the GitBash,(inside the folder which was cloned)
+3. git status
+4. git add * (add everything)
+5. git add filename/foldername
+6. git commit
+7. It ask to identify by providing name and mail id.
+git config --global user.email "ashwinishekar02@gmail.com"
+git config --global user.name "Ashwini"
+
+8. git commit -m "message"
+9. git push (If asked for authorization, open the modal window and provide the authorization).
+10. git diff filename ->can provide the change made locally and in the repo
+11.git pull

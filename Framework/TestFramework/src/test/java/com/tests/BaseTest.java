@@ -1,4 +1,4 @@
-package com.standalone;
+package com.tests;
 
 import java.time.Duration;
 

@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.standalone.SauceInvalidLoginTest"/>
+      <class name="com.tests.SauceInvalidLoginTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

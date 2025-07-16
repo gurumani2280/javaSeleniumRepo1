@@ -3,9 +3,9 @@
 <suite parallel="classes" name="Suite">
   <test thread-count="5" parallel="classes" name="Test">
     <classes>
-      <class name="com.standalone.SauceDemoE2eTest"/>
-      <class name="com.standalone.SauceInvalidLoginTest"/>
-      <class name="com.standalone.SauceE2eTest"/>
+      <class name="com.tests.SauceDemoE2eTest"/>
+      <class name="com.tests.SauceInvalidLoginTest"/>
+      <class name="com.tests.SauceE2eTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,13 +1,19 @@
-package com.standalone;
+package com.tests;
+
+import java.time.Duration;
 
 import org.openqa.selenium.By;
-import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
-public class SauceDemoE2eTest extends BaseTest{
-	
-	@Test
-	public void sauceE2eTest() throws InterruptedException {
+public class SauceDemoE2e {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		
+		driver.get("https://www.saucedemo.com/");
 		driver.findElement(By.name("user-name")).sendKeys("standard_user");
 		Thread.sleep(2000);
 		driver.findElement(By.name("password")).sendKeys("secret_sauce");
@@ -40,6 +46,11 @@ public class SauceDemoE2eTest extends BaseTest{
 		driver.findElement(By.id("logout_sidebar_link")).click();
 		
 		Thread.sleep(2000);
+		
+		driver.quit();
+
+
+
 	}
 
 }
